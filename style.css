@@ -1,0 +1,1267 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    position: relative;
+}
+.clr{
+    clear: both;
+}
+
+/* ================================================banner part start======================================= */
+#banner{
+    border-top: 1px  solid #FA8072 ;
+    border-bottom: 1px  solid #FA8072;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+.banner-content{
+    width: 1140px;
+    margin: 0 auto;
+}
+/* =============================================contact_location part start==================================== */
+.contract_location{
+    display: flex;
+    justify-content: space-between;
+}
+#banner .banner-content .contract_location .phone-email{
+    display: flex;
+}
+#banner .banner-content .contract_location .phone-email .phone{
+    display: flex;
+    font-size: 15px;
+    line-height: 24px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    color:white;
+    padding: 10px;
+}
+#banner .banner-content .contract_location  .phone-email .email{
+    display: flex;
+    font-size: 15px;
+    line-height: 24px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    color:white;
+    padding: 10px;
+}
+#banner .banner-content .contract_location .phone-email .phone .phone-icon{
+    padding-right: 10px;
+    color: #FA8072;
+}
+#banner .banner-content .contract_location .phone-email .email .email-icon{
+    padding-right: 10px;
+    color: #FA8072;
+}
+#banner .banner-content .contract_location .location-name .location{
+    display: flex;
+    font-size: 15px;
+    line-height: 24px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    color:white;
+    padding: 10px;
+}
+#banner .banner-content .contract_location .location-name .location .location-icon{
+    padding-right: 10px;
+    color: #FA8072;
+}
+/* =============================================contact_location part end==================================== */
+
+/* =================================================banner_nev_content part start====================================== */
+.banner_nev_content{
+    padding: 10px 0px 10px 0px;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    width: 100%;
+}
+.menu_content{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+}
+/* =================================================logo_content part start====================================== */
+
+.banner_nev_content .menu_content  .logo{
+    width: 30%;
+    padding: 4px 0px 0px 5px;
+    box-sizing: border-box;
+    display: flex;
+}
+.banner_nev_content .menu_content  .logo img{
+    height: 48px;
+    width: 48px;
+}
+.banner_nev_content .menu_content  .logo a {
+    text-decoration: none;
+    display: flex;
+}
+.banner_nev_content .menu_content  .logo a samp{
+    padding-top: 0px;
+    font-family: 'Itim', cursive;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 24px;
+    color:#FA8072;
+    width: 50px;
+}
+
+/* =================================================logo_content part end====================================== */
+
+/* =================================================menu_content part start====================================== */
+
+
+.banner_nev_content .menu_content .menu{
+    width: 70%;
+    padding: 14px 0px 14px 0px ;
+}
+
+.banner_nev_content .menu_content .menu ul{
+    float: right;
+}
+.banner_nev_content .menu_content .menu ul li{
+    display: flex;
+    float: left;
+    list-style: none;
+}
+.banner_nev_content .menu_content .menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    margin: 0 30px;
+    transition: .4s;
+    position: relative;
+}
+.banner_nev_content .menu_content .menu ul li a:hover{
+    color:#FA8072
+}
+.banner_nev_content .menu_content .menu ul li a::after{
+    position: absolute;
+    bottom: -3px;
+    left: 0px;
+    height: 2px;
+    width: 0;
+    background-color: #FA8072;
+    content: "";
+    transition: .4s;
+}
+.banner_nev_content .menu_content .menu ul li a:hover::after{
+    width: 100%;
+}
+
+
+.banner_nev_content .menu_content .menu ul li a::before{
+    position: absolute;
+    top: -3px;
+    right: 0;
+    height: 2px;
+    width: 0;
+    background-color: #FA8072;
+    content: "";
+    transition: .4s;
+}
+.banner_nev_content .menu_content .menu ul li a:hover::before{
+    width: 100%;
+}
+/* =================================================menu_content part end====================================== */
+
+/* =================================================banner_nev_content part end====================================== */
+
+/* =================================================banner_all_content part start====================================== */
+.banner_all_content{
+    background:url("images/bgphoto.jpg") no-repeat center;
+    background-size: cover;
+}
+.banner_all_content .overly{
+    background: rgba(12, 12, 12, 0.445);
+    padding: 125px 0px 50px 0px;
+}
+.banner_all_content .bannere_button_content .left_icon{
+    position: absolute;
+    top:0%;
+    left:-31%;
+    font-size: 35px;
+    color: #ffffff;
+    transition: 0.6s;
+    transform: translateY(-0%);
+    border-radius: 57%;
+    height: 34px;
+    width: 34px;
+    padding: 8px;
+    cursor: pointer;
+} 
+.banner_all_content .bannere_button_content .left_icon:hover{
+    background-color: #FA8072;
+}
+.banner_all_content .bannere_button_content .right_icon{
+    position: absolute;
+    top:0%;
+    right:-31%;
+    font-size: 35px;
+    color: #ffffff;
+    transition: 0.6s;
+    transform: translateY(-0%);
+    border-radius: 57%;
+    height: 32px;
+    width: 32px;
+    padding: 8px;
+    cursor: pointer;
+}
+.banner_all_content .bannere_button_content .right_icon:hover{
+    background-color: #FA8072;
+}
+.banner_all_content .bannere_button_content{
+    width: 1140px;
+    margin: 0 auto;
+    position: relative;
+}
+.banner_all_content .bannere_button_content h1{
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #FA8072;
+    padding:10px;
+    margin: 80px 0px 0px 0px ;
+}
+.banner_all_content .bannere_button_content p{
+    width: 47%;
+    text-align: justify;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    padding:10px;
+}
+.banner_all_content .bannere_button_content a{
+    text-decoration:none;
+    color: rgb(0, 0, 0);
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #FA8072;
+    padding:10px;
+    margin: 17px 0px 15px 5px;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: .6s;
+    border-radius: 10px;
+}
+.banner_all_content .bannere_button_content a:hover{
+    background-color: #7FFFD4;
+}
+/* =================================================banner_all_content part end====================================== */
+
+/* =================================================welcome part start====================================== */
+.welcome_background {
+    background-color: white;
+    padding: 35px 0px 4px 0px;
+}
+.welcome_background .welcome{
+    width: 1140px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.welcome_background .welcome .welcome_content{
+    margin-bottom: 80px;
+}
+.welcome_background .welcome .welcome_content h1{
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+    color : black;
+    padding:30px;
+}
+.welcome_background .welcome .welcome_content p{
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color :#222222;
+    width: 600px; 
+    margin: 0 auto;
+}
+/* =================================================welcome part end====================================== */
+
+/* =================================================welcome_slider part start====================================== */
+
+.welcome_slider{
+    display: flex;
+    margin-top: 80px;
+    position: relative;
+} 
+.welcome_slider .business , .family , .property , .divorce {
+    width: 25%;
+    text-align: center;
+    padding: 100px 0;
+    border: 2px solid #C2C2C2;
+    transition: .6s;
+}
+.property_fixd{
+    background-color: #FA8072;
+}
+.property_fixd:hover{
+    transform: scale(.95);
+    color: aqua;
+}
+.property_fixd i {
+    color: white;
+}
+.welcome_background .welcome .welcome_slider .business:hover , .family:hover ,  .property:hover ,  .divorce:hover{
+    background-color: #9bec82;
+}
+.welcome_background .welcome .welcome_slider .business:hover i , .family:hover i ,  .property:hover i ,  .divorce:hover i{
+    color: rgb(255, 255, 255);
+}
+.welcome_background .welcome .welcome_slider .business .business_icon , .family_icon , .property_icon , .divorcey_icon {
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 35px;
+    color: #FA8072;
+}
+.welcome_slider .business .business_txt, .family_txt  , .property_txt  , .divorce_txt {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color :#222222;
+}
+.welcome_background .welcome .welcome_slider .welcome_slider_left_icon{
+    position: absolute;
+    top:50%;
+    left:-31%;
+    font-size: 35px;
+    color: #000000;
+    transition: 0.6s;
+    transform: translateY(-50%);
+    border-radius: 57%;
+    height: 34px;
+    width: 34px;
+    padding: 8px;
+    cursor: pointer;
+}
+.welcome_background .welcome .welcome_slider .welcome_slider_right_icon{
+    position: absolute;
+    top:50%;
+    right:-31%;
+    font-size: 35px;
+    color: #000000;
+    transition: 0.6s;
+    transform: translateY(-50%);
+    border-radius: 57%;
+    height: 32px;
+    width: 32px;
+    padding: 8px;
+    cursor: pointer;
+}
+.welcome_background .welcome .welcome_slider .welcome_slider_left_icon:hover , .welcome_slider_right_icon:hover{
+    background-color: #FA8072;
+}
+/* =================================================welcome_slider part end====================================== */
+
+/* =================================================about part start====================================== */
+
+/* =================================================about_content_text part start====================================== */
+
+.about_background {
+    background-color: #F1F1F1;
+    padding-top: 130px;
+}
+.about_background .about{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+}
+.about_background .about .about_content_text{
+    width: 60%;
+}
+.about_background .about .about_content_text h1{
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+    color :#222222;
+    text-align: center;
+    padding: 30px;
+}
+.about_background .about .about_content_text h1 samp{
+    color: #FA8072;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+}
+.about_background .about .about_content_text p{
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color :#222222;
+    width: 500px;
+    margin: 0 auto;
+}
+.about_background .about .about_content_text .right_content .expert span , .complete span , .support span , .free span {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30x;
+    color :#222222;
+}
+.about_background .about .about_content_text .right_content .expert i , .complete i , .support i , .free i{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25x;
+    color :#222222;
+    margin-right: 30px;
+}
+.about_background .about .about_content_text .right_content .expert , .complete , .support , .free{
+    padding: 10px;
+}
+.about_background .about .about_content_text .right_content .expert a{
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30x;
+    color :#FA8072;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #FA8072;
+    transition: .6s;
+    border-radius: 15px;
+}
+.about_background .about .about_content_text .right_content .expert a:hover{
+    background-color: #FA8072;
+    color: black;
+}
+.bg_content{
+    width: 272px;
+    float: right;
+    padding-top: 60px;
+}
+.right_content .free a{
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30x;
+    color :#FA8072;
+    padding: 10px;
+    margin: 10px 10px 10px 88px;
+    border: 1px solid #FA8072;
+    display: inline-block;
+    transition: .6s;
+    border-radius: 15px;
+}
+.right_content .free a:hover{
+    background-color: #FA8072;
+    color: black;
+}
+/* =================================================about_content_text part end====================================== */
+
+/* =================================================about_content_img part start====================================== */
+.about_background .about .about_content_img{
+    width:40% ;
+}
+/* =================================================about_content_img part end====================================== */
+
+/* =================================================about part end====================================== */
+
+ /* ========================================================= practice part start=========================================================  */
+.practice_bg {
+    background-color: #FFFFFF;
+    padding: 80px 0px 20px 0px;
+}
+.practice_bg .practice{
+    width: 1140px;
+    margin: 0 auto;
+}
+.practice_bg .practice .practice_content h1{
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 43x;
+    color :#222222; 
+    text-align: center;
+    padding:40px 0px 20px 0px;
+}
+.practice_bg .practice .practice_content p {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24x;
+    color :#222222; 
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px 0px 40px 0px;
+}
+ /* ========================================================= practice part end=========================================================  */
+
+ /* ========================================================= practice_slider part start=========================================================  */
+.practice_slider_bg{
+    background-color: #FFFFFF;
+    padding-bottom: 100px;
+}
+.practice_slider {
+    display: flex;
+    position: relative;
+}
+.practice_slider .content_1 , .content_2 , .content_3 , .content_4 {
+    background-color: #F1F1F1;
+    width: 25%;
+    text-align: center;
+    padding: 100px 0;
+    /* border: 2px solid #F1F1F1; */
+    margin: 40px 10px 30px 10px;
+    transition: .6s;
+    position: relative;
+    box-shadow: 0px 0px 25px 0px;
+    border-radius: 15px;
+}
+.practice_slider_bg .practice_slider .practice_slider_right_icon{
+    position: absolute;
+    top:50%;
+    right:0%;
+    font-size: 35px;
+    color: #000000;
+    transition: 0.6s;
+    transform: translateY(-50%);
+    border-radius: 57%;
+    height: 32px;
+    width: 32px;
+    padding: 8px;
+    cursor: pointer;
+    border: 2px solid #FA8072;
+}
+.practice_slider_bg .practice_slider .practice_slider_left_icon{
+    position: absolute;
+    top:50%;
+    left:0%;
+    font-size: 35px;
+    color: #000000;
+    transition: 0.6s;
+    transform: translateY(-50%);
+    border-radius: 57%;
+    height: 32px;
+    width: 32px;
+    padding: 8px;
+    cursor: pointer;
+    border: 2px solid #FA8072;
+}
+.practice_slider_bg .practice_slider .practice_slider_right_icon:hover , .practice_slider_left_icon:hover{
+    background-color: #FA8072;
+}
+
+.content_1:hover , .content_2:hover , .content_3:hover , .content_4:hover  {
+    background-color:#7FFFD4;
+    transform: scale(1.05);
+}
+.practice_slider .content_1 .property_icon i , .content_2 .divorcey_icon i , .content_3 .business_icon i , .content_4 .family_icon i  {
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 35px;
+    color: #FA8072;
+}
+.practice_slider .content_1 .property_txt ,  .content_2 .divorce_txt ,  .content_3 .business_txt ,  .content_4 .family_txt  {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color :#222222;
+}
+.practice_slider .content_1 p , .content_2 p , .content_3 p , .content_4 p  {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24x;
+    color :#222222; 
+    width: 90%;
+    margin: 10px auto;
+}
+.practice_slider .content_1 a , .content_2 a , .content_3 a , .content_4 a  {
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30x;
+    color :black;
+    padding: 10px;
+    border: 1px solid #FA8072;
+    display: inline-block;
+    margin: 10px  auto;
+    background-color: #8a3b3b00;
+    transition: .6s;
+    border-radius: 16px;
+}
+.content_3_big{
+    padding: 110px 0;
+}
+.content_1 a:hover , .content_2 a:hover , .content_3 a:hover , .content_4 a:hover{
+    background-color: #FA8072;
+}
+ /* ========================================================= practice_slider part end=========================================================  */
+
+/* ===========================================happy_client part start========================= */
+#happy_client {
+    background-color: #eeecec;
+    padding-bottom:100px ;
+    position: relative;
+}
+#happy_client .happy_client_contenar {
+    width: 1140px;
+    margin: 0 auto;
+}
+/* ==========================================happy_client_txt_part start============================  */
+#happy_client .happy_client_contenar .happy_client_txt h1{
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43x;
+    color :#222222;
+    text-align: center;
+    padding-top: 100px;
+}
+#happy_client .happy_client_contenar .happy_client_txt p{
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24x;
+    color :#222222; 
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px 0px 40px 0px;
+    text-align: center;
+}
+/* ==========================================happy_client_txt_part end============================  */
+
+/* ==========================================happy_slient_slider part start============================  */
+#happy_client .happy_client_contenar .happy_slient_slider{  
+    display: flex;
+}
+#happy_client .happy_client_contenar .happy_slient_slider .happy_slient_details{
+    background: rgb(216, 216, 216);
+    padding: 30px ;
+    transition: 0.4s;
+    width: 33%;
+    margin: 15px;
+    transition: .8s;
+}
+#happy_client .happy_client_contenar .happy_slient_slider .happy_slient_details:hover{
+    transform:rotate(360deg);
+    background-color: bisque;
+}
+#happy_client .happy_client_contenar .happy_slient_slider .h_c_d{
+    border: 1px solid #FA8072;
+}
+.happy_slient_slider_left_icon{
+    position: absolute;
+    top:60%;
+    left:5%;
+    font-size: 35px;
+    color: #000000;
+    transition: 0.6s;
+    transform: translateY(-60%);
+    border-radius: 57%;
+    height: 32px;
+    width: 32px;
+    padding: 8px;
+    cursor: pointer;
+    border: 2px solid #FA8072;
+}
+.happy_slient_slider_right_icon{
+    position: absolute;
+    top:60%;
+    right:5%;
+    font-size: 35px;
+    color: #000000;
+    transition: 0.6s;
+    transform: translateY(-60%);
+    border-radius: 57%;
+    height: 32px;
+    width: 32px;
+    padding: 8px;
+    cursor: pointer;
+    border: 2px solid #FA8072;
+}
+.happy_slient_slider_left_icon:hover , .happy_slient_slider_right_icon:hover{
+    background-color: #FA8072;
+}
+#happy_client .happy_client_contenar .happy_slient_slider .happy_slient_details h3{
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22x;
+    color :#222222;
+    text-align: center;
+}
+#happy_client .happy_client_contenar .happy_slient_slider .happy_slient_details .post{
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 38px;
+    color :#222222;
+    width: 125px;
+    margin: 0 auto;
+}
+#happy_client .happy_client_contenar .happy_slient_slider .happy_slient_details .image{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background: #ffffff;
+    display: inline-block;
+    padding: 10px;
+    margin: 20px 0px 20px 50%;
+    transform: translateX(-50%);
+    overflow: hidden;
+}
+#happy_client .happy_client_contenar .happy_slient_slider .happy_slient_details .image img{
+margin: 20px 0px 0px 18px;
+}
+#happy_client .happy_client_contenar .happy_slient_slider .happy_slient_details p{
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21x;
+    color :#222222;
+    text-align: center;
+}
+/* ==========================================happy_slient_slider part end============================  */
+/* ========================================happy_client part end========================================= */
+
+/* ===================================attorney part strat=============================== */
+.attorney{
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 100px;
+}
+.attorney .attorner_contenar{
+    width: 1140px;
+    margin: 0 auto;
+}
+/* ===========================attorney_txt part start================================== */
+.attorney .attorner_contenar .attorney_txt h1{
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43x;
+    color :#222222;
+    text-align: center;
+    padding-top: 100px;
+}
+.attorney .attorner_contenar .attorney_txt p{
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24x;
+    color :#222222; 
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px 0px 40px 0px;
+    text-align: center;
+}
+/* ===========================attorney_txt part end================================== */
+
+/* =============================attorney_details part start=============================== */
+.attorney .attorner_contenar .attorney_details{
+    display: flex;
+    position: relative;
+}
+.attorney .attorner_contenar .attorner_image{
+    width: 330px;
+    margin-top: 66px;
+}
+.attorney .attorner_contenar .attorner_image img{
+    max-width: 287px;
+}
+.attorney .attorner_contenar .attorney_details_txt{
+    background-color: rgb(112, 161, 167);
+    width: 715px;
+    padding: 30px 30px 0px 30px;
+    height: 400px;
+    margin-top: 66px;
+    border-radius: 24px;
+    transition: .7s;
+}
+.attorney .attorner_contenar .attorney_details_txt:hover{
+    box-shadow: 0px 0px 25px 0px;
+    transform: scale(1.05);
+}
+.attorney .attorner_contenar .attorney_details_txt h1{
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+    color :#ffffff;
+    padding: 10px 20px 10px 0px;
+}
+.attorney .attorner_contenar .attorney_details_txt .defence{
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18pxx;
+    color :#ffffff;
+    position: relative;
+}
+.attorney .attorner_contenar .attorney_details_txt .defence::after{
+    position: absolute;
+    bottom: -10px;
+    left: 0px;
+    height: 2px;
+    width: 100%;
+    background-color: #FA8072;
+    content: "";
+    transition: .4s;
+}
+.attorney .attorner_contenar .attorney_details_txt .defence a {
+    text-decoration: none;
+    color: yellowgreen;
+}
+
+.attorney .attorner_contenar .attorney_details_txt .txt{
+    margin-top: 30px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color :#222222; 
+    text-align: justify;
+}
+/* =============================attorney_details part end=============================== */
+
+/* =======================icon_contenar part start=============================== */
+.attorney .attorner_contenar .attorney_details .attorney_details_txt .icon_contenar{
+    display: flex;
+}
+.attorney .attorner_contenar .attorney_details .attorney_details_txt .icon_contenar .icon{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    color :#ffffff; 
+    margin-top: 12px ;
+    margin-right: 45px;
+}
+.attorney .attorner_contenar .attorney_details .attorney_details_txt .icon_contenar .icon a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+}
+.attorney .attorner_contenar .attorney_details .attorney_details_txt .icon_contenar .icon a:hover{
+    color: #FA8072;
+    border: 1px solid black;
+}
+.attorney_slider_left_icon{
+    position: absolute;
+    top:60%;
+    left:-20%;
+    font-size: 35px;
+    color: #000000;
+    transition: 0.6s;
+    transform: translateY(-60%);
+    height: 32px;
+    width: 32px;
+    padding: 8px;
+    cursor: pointer;
+    border: 2px solid rgb(112, 161, 167);
+}
+.attorney_slider_right_icon{
+    position: absolute;
+    top:60%;
+    right:-20%;
+    font-size: 35px;
+    color: #000000;
+    transition: 0.6s;
+    transform: translateY(-60%);
+    height: 32px;
+    width: 32px;
+
+    padding: 8px;
+    cursor: pointer;
+    border: 2px solid rgb(112, 161, 167);
+}
+.attorney_slider_left_icon:hover , .attorney_slider_right_icon:hover{
+    background-color: #FA8072;
+}
+/* =======================icon_contenar part end=============================== */
+
+/* ===================================attorney part end=============================== */
+
+/* ===========================================latest_news part stsrt================================= */
+#latest_news {
+    background-color: #EEECEC;
+    padding: 10px 0px 80px 0px;
+}
+#latest_news  .latest_news_contenar {
+    width: 1140px;
+    margin: 0 auto;
+}
+/* =================================latest_news_txt part stsrt================================== */
+#latest_news  .latest_news_contenar .latest_news_txt h1{
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+    color :#222222;
+    text-align: center;
+    padding-top: 100px;
+}
+#latest_news  .latest_news_contenar .latest_news_txt p{
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color :#222222;
+    width: 600px; 
+    margin: 0 auto;
+    padding: 20px 20px 80px 20px;
+}
+/* =================================latest_news_txt part end======================================== */
+
+/* =================================last_news_details part stsrt================================== */
+
+#latest_news  .latest_news_contenar .last_news_details{
+    display: flex;
+}
+
+#latest_news  .latest_news_contenar .last_news_details .photo{
+    background-color: chocolate;
+    margin:10px;
+    transition: .5s;
+}
+#latest_news  .latest_news_contenar .last_news_details .photo:hover{
+    transform: scale(.9);
+}
+#latest_news  .latest_news_contenar .last_news_details .photo .photo_details{
+    background-color: rgb(255, 255, 255);
+    width: 355px;
+    padding: 10px;
+    margin-top: -4px;
+}
+#latest_news  .latest_news_contenar .last_news_details .photo .photo_details h3 {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color :#FA8072;
+}
+#latest_news  .latest_news_contenar .last_news_details .photo .photo_details .date{
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color :#000000;
+    margin: 20px 0;
+}
+#latest_news  .latest_news_contenar .last_news_details .photo .photo_details .details{
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color :#000000;
+}
+
+/* =================================last_news_details part end================================== */
+/* ===========================================latest_news part end================================= */
+
+/* ===================================================last_logo part start==================================== */
+#last_logo{
+    background-color: rgb(255, 255, 255);
+    border-bottom: 2px solid #FA8072;
+}
+#last_logo .last_logo_contenar{
+    width: 1140px;
+    margin: 0 auto;
+    padding: 80px 0px 30px 0px;
+}
+#last_logo .last_logo_contenar .image_contenar{
+    width: 118px;
+    margin: 0 auto;
+}
+#last_logo .last_logo_contenar .image_contenar .image img{
+    height: 48px;
+    width: 48px;
+}
+#last_logo .last_logo_contenar .image_contenar .image a {
+    text-decoration: none;
+    display: flex;
+}
+#last_logo .last_logo_contenar .image_contenar .image a samp{
+    padding-top: 0px;
+    font-family: 'Itim', cursive;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 24px;
+    color:#FA8072;
+    width: 50px;
+    margin-left: 2px;
+}
+/* ===================================================last_logo part end==================================== */
+
+/* ================================================all_in_one part start======================================== */
+#all_in_one{
+    background-color: rgb(255, 255, 255);
+    padding: 80px;
+}
+#all_in_one .all_in_one_contenar{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+}
+/* ========================================all_in_one about part start===============================   */
+#all_in_one .all_in_one_contenar .about{
+    background-color: #ffffff;
+    width: 25%;
+    padding: 15px;
+    margin-right: 15px;
+}
+#all_in_one .all_in_one_contenar .about h1{
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color :#c74747;
+    padding: 20px 0px 20px 0px;
+    position: relative;
+}
+#all_in_one .all_in_one_contenar .about h1::after{
+    position: absolute;
+    bottom: 3px;
+    left: 0px;
+    height: 2px;
+    width: 180px;
+    background-color: #FA8072;
+    content: "";
+    transition: .4s;
+}
+#all_in_one .all_in_one_contenar .about p{
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color :#000000;
+    padding: 15px 0px 15px 0px;
+}
+#all_in_one .all_in_one_contenar .about .icon_contenar{
+    display: flex;
+}
+#all_in_one .all_in_one_contenar .about .icon_contenar .icon{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    color :#000000; 
+    margin-top: 12px ;
+    margin-right: 30px;
+}
+#all_in_one .all_in_one_contenar .about .icon_contenar .icon a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    box-sizing: border-box;
+}
+#all_in_one .all_in_one_contenar .about .icon_contenar .icon a:hover{
+    color: #FA8072;
+}
+/* ========================================all_in_one about part end===============================   */
+
+/* ========================================all_in_one tuch part start===============================   */
+#all_in_one .all_in_one_contenar .tuch{
+    background-color: #ffffff;
+    width: 20%;
+    padding: 15px
+}
+#all_in_one .all_in_one_contenar .tuch .time{
+    display: flex;
+}
+#all_in_one .all_in_one_contenar .tuch h1{
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color :#c74747;
+    padding: 20px 0px 20px 0px;
+    position: relative;
+    margin-bottom: 15px;
+}
+#all_in_one .all_in_one_contenar .tuch h1::after{
+    position: absolute;
+    bottom: 3px;
+    left: 0px;
+    height: 2px;
+    width: 180px;
+    background-color: #FA8072;
+    content: "";
+    transition: .4s;
+}
+#all_in_one .all_in_one_contenar .tuch .time{
+    
+    padding:14px 0px 14px 0px;
+}
+#all_in_one .all_in_one_contenar .tuch .time i{
+    margin-right: 20px;
+    font-size: 16px;
+    line-height: 16px;
+    color :#000000; 
+} 
+#all_in_one .all_in_one_contenar .tuch .time p{
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color :#000000;
+}
+/* ========================================all_in_one tuch part end===============================   */
+
+/* ========================================all_in_one explore part start===============================   */
+#all_in_one .all_in_one_contenar .explore{
+    background-color: #ffffff;
+    width: 25%;
+    padding: 15px;
+    margin-left: 15px;
+}
+#all_in_one .all_in_one_contenar .explore .low{
+    display: flex;
+    padding:14px 0px 14px 0px;
+}
+#all_in_one .all_in_one_contenar .explore h1{
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color :#c74747;
+    padding: 20px 0px 20px 0px;
+    position: relative;
+    margin-bottom: 15px;
+}
+#all_in_one .all_in_one_contenar .explore h1::after{
+    position: absolute;
+    bottom: 3px;
+    left: 0px;
+    height: 2px;
+    width: 215px;
+    background-color: #FA8072;
+    content: "";
+    transition: .4s;
+}
+#all_in_one .all_in_one_contenar .explore .low i{
+    margin-right: 20px;
+    font-size: 16px;
+    line-height: 16px;
+    color :#FA8072; 
+}
+#all_in_one .all_in_one_contenar .explore .low p {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color :#000000;
+}
+#all_in_one .all_in_one_contenar .explore .low p a{
+    text-decoration: none;
+    color: rgb(87, 189, 61);
+}
+/* ========================================all_in_one explore part end===============================   */
+
+/* ========================================all_in_one working part start===============================   */
+#all_in_one .all_in_one_contenar .working{
+    background-color: #ffffff;
+    width: 30%;
+    padding: 15px;
+    margin-left: 15px;
+}
+#all_in_one .all_in_one_contenar .working .day_time_content{
+
+    display: flex;
+}
+#all_in_one .all_in_one_contenar .working h1{
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color :#c74747;
+    padding: 20px 0px 20px 0px;
+    position: relative;
+    margin-bottom: 15px;
+}
+#all_in_one .all_in_one_contenar .working h1::after{
+    position: absolute;
+    bottom: 3px;
+    left: 0px;
+    height: 2px;
+    width: 180px;
+    background-color: #FA8072;
+    content: "";
+    transition: .4s;
+}
+#all_in_one .all_in_one_contenar .working .day{
+    width: 50px;
+}
+#all_in_one .all_in_one_contenar .working .day .days{
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color :#000000;
+    padding: 5px 0;
+}
+#all_in_one .all_in_one_contenar .working .time .times{
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color :#000000;
+    padding: 5px 0;
+    margin-left: 75px;
+}
+/* ========================================all_in_one working part end===============================   */
+
+/* ================================================all_in_one part end======================================== */
+
+/* ========================================footer part start========================================= */
+footer{
+    background-color: #FA8072;
+}
+footer .footer_contenar{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    padding: 10px;
+}
+footer .footer_contenar .conten_contenar {
+    width: 475px;
+    display: flex;
+    margin: 0 auto;
+}
+footer .footer_contenar .conten_contenar .copyRight_icon{
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 21px;
+    color :#000000;
+    margin-right: 10px;
+}
+footer .footer_contenar .conten_contenar  p{
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    color :#ffffff;
+}
+footer .footer_contenar .conten_contenar  p span{
+    color: rgb(0, 0, 0);
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 21px;
+}
+/* ========================================footer part end========================================= */
